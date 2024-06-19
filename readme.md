@@ -6,7 +6,7 @@ This project is all about learning how to use Gemini.
 
 1. Clone the repository:
     ```
-    git clone <repository-url>
+    git clone https://github.com/prodeveloper/gemini_quickstartgit
     ```
 
 2. Install the required dependencies:
