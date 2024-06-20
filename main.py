@@ -1,11 +1,7 @@
-import google.generativeai as genai
-import os
-from dotenv import load_dotenv
-load_dotenv()
+from page import SmartPDFPage
 
-GOOGLE_API_KEY = os.getenv('GEMINI_KEY')
-genai.configure(api_key=GOOGLE_API_KEY)
+file_path = 'sample_pdfs/map_reduce.pdf'
+page_num = 0
 
-model = genai.GenerativeModel('gemini-1.5-flash')
-response = model.generate_content("Hey testing my code imoplementation. say yeah if you hear me")
-print(response.text)
+page = SmartPDFPage(file_path, page_num)
+print(page.summary())

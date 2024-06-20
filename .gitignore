@@ -10,3 +10,10 @@ build
 *.egg-info/
 dist/*
 __pycache__/
+
+#test files
+
+sample_pdfs/*
+log.md
+smartpdf.db
+test_gen.py
