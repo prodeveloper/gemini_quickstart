@@ -17,3 +17,4 @@ sample_pdfs/*
 log.md
 smartpdf.db
 test_gen.py
+Devcontent/*
